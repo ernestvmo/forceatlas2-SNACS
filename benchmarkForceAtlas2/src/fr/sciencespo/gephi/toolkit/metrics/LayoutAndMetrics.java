@@ -16,6 +16,7 @@ import org.gephi.io.importer.api.ImportController;
 import org.gephi.io.processor.plugin.DefaultProcessor;
 import org.gephi.layout.plugin.force.StepDisplacement;
 import org.gephi.layout.plugin.force.yifanHu.YifanHu;
+import org.gephi.layout.plugin.force.yifanHu.YifanHuProportional;
 import org.gephi.layout.plugin.force.yifanHu.YifanHuLayout;
 import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2;
 import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2Builder;
@@ -41,6 +42,10 @@ public class LayoutAndMetrics {
 
     public void benchmarkYH(File input_file, File output_dir) {
         benchmark(input_file, output_dir, "YH", new ProcessYH());
+    }
+
+    public void benchmarkYHProportional(File input_file, File output_dir) {
+        benchmark(input_file, output_dir, "YH_P", new ProcessYHProportinal());
     }
 
     private void benchmark(File input_file, File output_dir, String algoSignature, Process process) {
@@ -265,6 +270,43 @@ public class LayoutAndMetrics {
                 }
             }
             yh.endAlgo();
+
+            return report;
+        }
+    }
+
+    private class ProcessYHProportinal extends Process {
+        @Override
+        public String process(GraphModel graphModel, String algoSignature) {
+            String report = "";
+            // Layout with Yifan Hu
+            YifanHuLayout yh_proportional = new YifanHuLayout(new YifanHuProportional(), new StepDisplacement(1f));
+
+            yh_proportional.setGraphModel(graphModel);
+            yh_proportional.initAlgo();
+            yh_proportional.resetPropertiesValues();
+
+            // Log settings
+            System.out.println("BarnesHutTheta " + yh_proportional.getBarnesHutTheta());
+            System.out.println("ConvergenceThreshold " + yh_proportional.getConvergenceThreshold());
+            System.out.println("InitialStep " + yh_proportional.getInitialStep());
+            System.out.println("OptimalDistance " + yh_proportional.getOptimalDistance());
+            System.out.println("QuadTreeMaxLevel " + yh_proportional.getQuadTreeMaxLevel());
+            System.out.println("RelativeStrength " + yh_proportional.getRelativeStrength());
+            System.out.println("StepRatio " + yh_proportional.getStepRatio());
+            System.out.println("AdaptiveCooling " + yh_proportional.isAdaptiveCooling());
+
+            report = report + "\n" + buildReportRow(graphModel, algoSignature, 0);
+            for (int i = 0; i < 2048 && yh_proportional.canAlgo(); i++) {
+                yh_proportional.goAlgo();
+                if (isPowerOfTwo(i + 1) || isPowerOfTwo(i + 2)) {
+                    report = report + "\n" + buildReportRow(graphModel, algoSignature, i + 1);
+                }
+                if (i % 100 == 99) {
+                    System.out.println("Step " + (i + 1) + " for " + algoSignature);
+                }
+            }
+            yh_proportional.endAlgo();
 
             return report;
         }

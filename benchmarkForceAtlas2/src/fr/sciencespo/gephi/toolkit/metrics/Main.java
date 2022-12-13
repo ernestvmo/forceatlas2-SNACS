@@ -32,10 +32,11 @@ public class Main {
 
 			for (File input_file : input_files) {
 				System.out.println("input_file: " + input_file);
-				layoutAndMetrics.benchmarkFR(input_file, output_dir);
-				layoutAndMetrics.benchmarkYH(input_file, output_dir);
-				layoutAndMetrics.benchmarkFA2_LL(input_file, output_dir);
-				layoutAndMetrics.benchmarkFA2(input_file, output_dir);
+				// layoutAndMetrics.benchmarkFR(input_file, output_dir);
+				// layoutAndMetrics.benchmarkYH(input_file, output_dir);
+				layoutAndMetrics.benchmarkYHProportional(input_file, output_dir);
+				// layoutAndMetrics.benchmarkFA2_LL(input_file, output_dir);
+				// layoutAndMetrics.benchmarkFA2(input_file, output_dir);
 
 			}
 		} else {

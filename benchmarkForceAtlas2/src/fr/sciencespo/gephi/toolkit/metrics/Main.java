@@ -7,13 +7,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		// Get arguments
-		// String input_path = args[1];
-		// String output_path = args[2];
+		String input_path = args[1];
+		String output_path = args[2];
 
-		String input_path = "data_input";
-		String output_path = "data_output";
+		String mode = "benchmark";
+		
+		if (args.length > 3) {
+			mode = args[3];
+		}
 
-		System.out.println("input_path: " + input_path + " output_path: " + output_path);
+		System.out.println("input_path: " + input_path + " output_path: " + output_path + " mode: " + mode);
 
 		// Convert to File
 		File input_dir = new File(input_path);
@@ -32,12 +35,19 @@ public class Main {
 
 			for (File input_file : input_files) {
 				System.out.println("input_file: " + input_file);
-				// layoutAndMetrics.benchmarkFR(input_file, output_dir);
-				// layoutAndMetrics.benchmarkYH(input_file, output_dir);
-				layoutAndMetrics.benchmarkYHProportional(input_file, output_dir);
-				// layoutAndMetrics.benchmarkFA2_LL(input_file, output_dir);
-				// layoutAndMetrics.benchmarkFA2(input_file, output_dir);
-
+				if (mode.equals("benchmark")) {
+					layoutAndMetrics.benchmarkFR(input_file, output_dir);
+					layoutAndMetrics.benchmarkYH(input_file, output_dir);
+					layoutAndMetrics.benchmarkYHProportional(input_file, output_dir);
+					layoutAndMetrics.benchmarkOpenOrd(input_file, output_dir);
+					layoutAndMetrics.benchmarkFA2(input_file, output_dir);
+					layoutAndMetrics.benchmarkFA2_LL(input_file, output_dir);
+				} else if (mode.equals("randomize")) {
+					for (int i = 0; i < 3; i++)
+						layoutAndMetrics.randomize_network(input_file, output_dir, i);
+				} else {
+					System.out.println("Invalid paths arguments: mode");
+				}
 			}
 		} else {
 			System.out.println("Invalid paths arguments: input_path output_path");

@@ -15,6 +15,8 @@ import org.gephi.io.importer.api.EdgeDirectionDefault;
 import org.gephi.io.importer.api.ImportController;
 import org.gephi.io.processor.plugin.DefaultProcessor;
 import org.gephi.layout.plugin.force.StepDisplacement;
+import org.gephi.layout.plugin.random.Random;
+import org.gephi.layout.plugin.random.RandomLayout;
 import org.gephi.layout.plugin.force.yifanHu.YifanHu;
 import org.gephi.layout.plugin.force.yifanHu.YifanHuProportional;
 import org.gephi.layout.plugin.force.yifanHu.YifanHuLayout;
@@ -22,6 +24,8 @@ import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2;
 import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2Builder;
 import org.gephi.layout.plugin.fruchterman.FruchtermanReingold;
 import org.gephi.layout.plugin.fruchterman.FruchtermanReingoldBuilder;
+import org.gephi.layout.plugin.openord.OpenOrdLayout;
+import org.gephi.layout.plugin.openord.OpenOrdLayoutBuilder;
 import org.gephi.project.api.ProjectController;
 import org.gephi.project.api.Workspace;
 import org.openide.util.Lookup;
@@ -46,6 +50,14 @@ public class LayoutAndMetrics {
 
     public void benchmarkYHProportional(File input_file, File output_dir) {
         benchmark(input_file, output_dir, "YH_P", new ProcessYHProportinal());
+    }
+
+    public void benchmarkOpenOrd(File input_file, File output_dir) {
+        benchmark(input_file, output_dir, "OO", new ProcessOpenOrd());
+    }
+
+    public void randomize_network(File input_file, File output_dir, int iter) {
+        benchmark(input_file, output_dir, "random_" + iter, new ProcessRandom());
     }
 
     private void benchmark(File input_file, File output_dir, String algoSignature, Process process) {
@@ -279,7 +291,7 @@ public class LayoutAndMetrics {
         @Override
         public String process(GraphModel graphModel, String algoSignature) {
             String report = "";
-            // Layout with Yifan Hu
+            // Layout with Yifan Hu Proportional
             YifanHuLayout yh_proportional = new YifanHuLayout(new YifanHuProportional(), new StepDisplacement(1f));
 
             yh_proportional.setGraphModel(graphModel);
@@ -307,6 +319,57 @@ public class LayoutAndMetrics {
                 }
             }
             yh_proportional.endAlgo();
+
+            return report;
+        }
+    }
+
+    private class ProcessOpenOrd extends Process {
+        @Override
+        public String process(GraphModel graphModel, String algoSignature) {
+            String report = "";
+            // Layout with OpenOrd
+            OpenOrdLayout openord = new OpenOrdLayout(new OpenOrdLayoutBuilder());
+            
+            openord.setGraphModel(graphModel);
+            openord.resetPropertiesValues();
+            openord.initAlgo();
+
+            System.out.println("LiquidStage " + openord.getLiquidStage());
+            System.out.println("ExpansionStage " + openord.getExpansionStage());
+            System.out.println("CooldownStage " + openord.getCooldownStage());
+            System.out.println("CrunchStage " + openord.getCrunchStage());
+            System.out.println("SimmerStage " + openord.getSimmerStage());
+
+            report = report + "\n" + buildReportRow(graphModel, algoSignature, 0);
+            for (int i = 0; i < 2048 && openord.canAlgo(); i++) {
+                openord.goAlgo();
+                if (isPowerOfTwo(i + 1) || isPowerOfTwo(i + 2)) {
+                    report = report + "\n" + buildReportRow(graphModel, algoSignature, i + 1);
+                }
+                if (i % 100 == 99) {
+                    System.out.println("Step " + (i + 1) + " for " + algoSignature);
+                }
+            }
+            openord.endAlgo();
+
+            return report;
+        }
+    }
+
+    private class ProcessRandom extends Process {
+        @Override
+        public String process(GraphModel graphModel, String algoSignature) {
+            String report = "";
+            // Layout with Yifan Hu
+            RandomLayout random = new RandomLayout(null, 1f);
+
+            random.setGraphModel(graphModel);
+            random.initAlgo();
+            random.resetPropertiesValues();
+
+            random.goAlgo();
+            random.endAlgo();
 
             return report;
         }

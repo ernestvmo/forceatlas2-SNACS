@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-12-16">
+    <creator>NetworkX 2.8.8</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="12196292" label="12196292" />
+      <node id="26379842" label="26379842" />
+      <node id="17524072" label="17524072" />
+      <node id="14871359" label="14871359" />
+      <node id="33423" label="33423" />
+      <node id="98726492" label="98726492" />
+      <node id="7230842" label="7230842" />
+      <node id="20536157" label="20536157" />
+      <node id="14313021" label="14313021" />
+      <node id="93957809" label="93957809" />
+      <node id="25875012" label="25875012" />
+      <node id="989" label="989" />
+      <node id="100481103" label="100481103" />
+    </nodes>
+    <edges>
+      <edge source="12196292" target="26379842" id="0" />
+      <edge source="26379842" target="25875012" id="1" />
+      <edge source="26379842" target="20536157" id="2" />
+      <edge source="17524072" target="14871359" id="3" />
+      <edge source="17524072" target="26379842" id="4" />
+      <edge source="17524072" target="989" id="5" />
+      <edge source="17524072" target="25875012" id="6" />
+      <edge source="17524072" target="14313021" id="7" />
+      <edge source="17524072" target="20536157" id="8" />
+      <edge source="14871359" target="25875012" id="9" />
+      <edge source="14871359" target="26379842" id="10" />
+      <edge source="14871359" target="989" id="11" />
+      <edge source="14871359" target="14313021" id="12" />
+      <edge source="14871359" target="17524072" id="13" />
+      <edge source="33423" target="98726492" id="14" />
+      <edge source="33423" target="989" id="15" />
+      <edge source="33423" target="20536157" id="16" />
+      <edge source="98726492" target="17524072" id="17" />
+      <edge source="98726492" target="20536157" id="18" />
+      <edge source="7230842" target="20536157" id="19" />
+      <edge source="7230842" target="17524072" id="20" />
+      <edge source="7230842" target="93957809" id="21" />
+      <edge source="7230842" target="14313021" id="22" />
+      <edge source="7230842" target="33423" id="23" />
+      <edge source="20536157" target="33423" id="24" />
+      <edge source="20536157" target="93957809" id="25" />
+      <edge source="20536157" target="989" id="26" />
+      <edge source="20536157" target="14313021" id="27" />
+      <edge source="20536157" target="7230842" id="28" />
+      <edge source="20536157" target="98726492" id="29" />
+      <edge source="14313021" target="93957809" id="30" />
+      <edge source="14313021" target="7230842" id="31" />
+      <edge source="14313021" target="20536157" id="32" />
+      <edge source="93957809" target="989" id="33" />
+      <edge source="93957809" target="20536157" id="34" />
+      <edge source="989" target="33423" id="35" />
+      <edge source="989" target="93957809" id="36" />
+      <edge source="100481103" target="33423" id="37" />
+    </edges>
+  </graph>
+</gexf>

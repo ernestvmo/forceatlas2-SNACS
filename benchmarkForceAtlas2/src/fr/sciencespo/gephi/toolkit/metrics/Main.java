@@ -36,7 +36,7 @@ public class Main {
 			for (File input_file : input_files) {
 				System.out.println("input_file: " + input_file);
 				if (mode.equals("benchmark")) {
-					layoutAndMetrics.benchmarkFR(input_file, output_dir);
+					// layoutAndMetrics.benchmarkFR(input_file, output_dir);
 					layoutAndMetrics.benchmarkYH(input_file, output_dir);
 					layoutAndMetrics.benchmarkYHProportional(input_file, output_dir);
 					layoutAndMetrics.benchmarkOpenOrd(input_file, output_dir);

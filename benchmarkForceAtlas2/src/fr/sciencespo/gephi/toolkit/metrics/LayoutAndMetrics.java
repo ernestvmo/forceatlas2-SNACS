@@ -367,7 +367,7 @@ public class LayoutAndMetrics {
             random.setGraphModel(graphModel);
             random.initAlgo();
             random.resetPropertiesValues();
-
+            random.setSize(50.0);
             random.goAlgo();
             random.endAlgo();
 

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2022-12-17">
+    <creator>Gephi 0.9.3</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="15315984" label="15315984">
+        <viz:size value="4.0"/>
+        <viz:position x="-10.427269" y="-8.790603"/>
+      </node>
+      <node id="813286" label="813286">
+        <viz:size value="4.0"/>
+        <viz:position x="-11.936129" y="-0.090995125"/>
+      </node>
+      <node id="22592208" label="22592208">
+        <viz:size value="4.0"/>
+        <viz:position x="-20.85005" y="6.119466"/>
+      </node>
+      <node id="23391896" label="23391896">
+        <viz:size value="4.0"/>
+        <viz:position x="-20.877779" y="-6.3341603"/>
+      </node>
+      <node id="17060769" label="17060769">
+        <viz:size value="4.0"/>
+        <viz:position x="-10.200299" y="8.554435"/>
+      </node>
+      <node id="15445311" label="15445311">
+        <viz:size value="4.0"/>
+        <viz:position x="-3.209797" y="-0.11895205"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="15315984" target="813286"/>
+      <edge id="1" source="813286" target="23391896"/>
+      <edge id="2" source="813286" target="15315984"/>
+      <edge id="3" source="813286" target="15445311"/>
+      <edge id="4" source="813286" target="17060769"/>
+      <edge id="5" source="22592208" target="813286"/>
+      <edge id="6" source="17060769" target="813286"/>
+      <edge id="7" source="15445311" target="813286"/>
+    </edges>
+  </graph>
+</gexf>

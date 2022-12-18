@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2022-12-17">
+    <creator>Gephi 0.9.3</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="4038" label="4038">
+        <viz:size value="4.0"/>
+        <viz:position x="-21.595505" y="76.29907"/>
+      </node>
+      <node id="4014" label="4014">
+        <viz:size value="4.0"/>
+        <viz:position x="28.329351" y="78.791534"/>
+      </node>
+      <node id="4032" label="4032">
+        <viz:size value="4.0"/>
+        <viz:position x="-63.192142" y="91.01593"/>
+      </node>
+      <node id="4027" label="4027">
+        <viz:size value="4.0"/>
+        <viz:position x="-46.213917" y="92.917244"/>
+      </node>
+      <node id="4019" label="4019">
+        <viz:size value="4.0"/>
+        <viz:position x="54.970303" y="127.466484"/>
+      </node>
+      <node id="4026" label="4026">
+        <viz:size value="4.0"/>
+        <viz:position x="57.60201" y="80.9746"/>
+      </node>
+      <node id="4023" label="4023">
+        <viz:size value="4.0"/>
+        <viz:position x="7.572069" y="107.44378"/>
+      </node>
+      <node id="4003" label="4003">
+        <viz:size value="4.0"/>
+        <viz:position x="25.26718" y="110.80075"/>
+      </node>
+      <node id="4018" label="4018">
+        <viz:size value="4.0"/>
+        <viz:position x="33.262173" y="132.06189"/>
+      </node>
+      <node id="3997" label="3997">
+        <viz:size value="4.0"/>
+        <viz:position x="44.86046" y="126.40365"/>
+      </node>
+      <node id="4031" label="4031">
+        <viz:size value="4.0"/>
+        <viz:position x="-39.793087" y="76.99047"/>
+      </node>
+      <node id="4021" label="4021">
+        <viz:size value="4.0"/>
+        <viz:position x="58.199955" y="92.11537"/>
+      </node>
+      <node id="3998" label="3998">
+        <viz:size value="4.0"/>
+        <viz:position x="29.645647" y="145.48114"/>
+      </node>
+      <node id="4013" label="4013">
+        <viz:size value="4.0"/>
+        <viz:position x="-25.893986" y="65.96875"/>
+      </node>
+      <node id="4004" label="4004">
+        <viz:size value="4.0"/>
+        <viz:position x="-4.4741073" y="68.17212"/>
+      </node>
+      <node id="4030" label="4030">
+        <viz:size value="4.0"/>
+        <viz:position x="37.30333" y="91.97369"/>
+      </node>
+      <node id="3988" label="3988">
+        <viz:size value="4.0"/>
+        <viz:position x="43.58057" y="67.48525"/>
+      </node>
+      <node id="3982" label="3982">
+        <viz:size value="4.0"/>
+        <viz:position x="44.653076" y="106.33678"/>
+      </node>
+      <node id="4002" label="4002">
+        <viz:size value="4.0"/>
+        <viz:position x="-22.966618" y="113.07106"/>
+      </node>
+      <node id="4037" label="4037">
+        <viz:size value="4.0"/>
+        <viz:position x="13.824519" y="86.316124"/>
+      </node>
+      <node id="4020" label="4020">
+        <viz:size value="4.0"/>
+        <viz:position x="-17.577637" y="88.129684"/>
+      </node>
+      <node id="3995" label="3995">
+        <viz:size value="4.0"/>
+        <viz:position x="33.10112" y="62.320435"/>
+      </node>
+      <node id="3993" label="3993">
+        <viz:size value="4.0"/>
+        <viz:position x="22.240294" y="61.9186"/>
+      </node>
+      <node id="3986" label="3986">
+        <viz:size value="4.0"/>
+        <viz:position x="67.34265" y="76.19583"/>
+      </node>
+      <node id="4017" label="4017">
+        <viz:size value="4.0"/>
+        <viz:position x="61.57454" y="60.174526"/>
+      </node>
+      <node id="3983" label="3983">
+        <viz:size value="4.0"/>
+        <viz:position x="70.756744" y="41.36273"/>
+      </node>
+      <node id="3994" label="3994">
+        <viz:size value="4.0"/>
+        <viz:position x="23.172497" y="131.14397"/>
+      </node>
+      <node id="3999" label="3999">
+        <viz:size value="4.0"/>
+        <viz:position x="37.932148" y="180.40791"/>
+      </node>
+      <node id="4005" label="4005">
+        <viz:size value="4.0"/>
+        <viz:position x="34.95418" y="171.19942"/>
+      </node>
+      <node id="4009" label="4009">
+        <viz:size value="4.0"/>
+        <viz:position x="34.680996" y="120.23169"/>
+      </node>
+      <node id="3991" label="3991">
+        <viz:size value="4.0"/>
+        <viz:position x="-59.099598" y="65.94498"/>
+      </node>
+      <node id="3989" label="3989">
+        <viz:size value="4.0"/>
+        <viz:position x="-48.71057" y="58.19774"/>
+      </node>
+      <node id="4011" label="4011">
+        <viz:size value="4.0"/>
+        <viz:position x="-61.436752" y="58.41415"/>
+      </node>
+      <node id="3992" label="3992">
+        <viz:size value="4.0"/>
+        <viz:position x="77.016685" y="52.38018"/>
+      </node>
+      <node id="3981" label="3981">
+        <viz:size value="4.0"/>
+        <viz:position x="42.17746" y="140.80313"/>
+      </node>
+      <node id="4000" label="4000">
+        <viz:size value="4.0"/>
+        <viz:position x="70.864296" y="66.4499"/>
+      </node>
+      <node id="3985" label="3985">
+        <viz:size value="4.0"/>
+        <viz:position x="21.690287" y="53.330177"/>
+      </node>
+      <node id="594" label="594">
+        <viz:size value="4.0"/>
+        <viz:position x="-58.02731" y="53.213173"/>
+      </node>
+      <node id="3996" label="3996">
+        <viz:size value="4.0"/>
+        <viz:position x="-16.298267" y="141.32036"/>
+      </node>
+      <node id="4029" label="4029">
+        <viz:size value="4.0"/>
+        <viz:position x="397.4366" y="82.45713"/>
+      </node>
+      <node id="4001" label="4001">
+        <viz:size value="4.0"/>
+        <viz:position x="398.8151" y="78.69618"/>
+      </node>
+      <node id="4025" label="4025">
+        <viz:size value="4.0"/>
+        <viz:position x="436.56378" y="-214.57185"/>
+      </node>
+      <node id="4016" label="4016">
+        <viz:size value="4.0"/>
+        <viz:position x="439.14246" y="-208.12085"/>
+      </node>
+      <node id="4034" label="4034">
+        <viz:size value="4.0"/>
+        <viz:position x="-6.8527775" y="115.060844"/>
+      </node>
+      <node id="3990" label="3990">
+        <viz:size value="4.0"/>
+        <viz:position x="445.6198" y="-210.63533"/>
+      </node>
+      <node id="4036" label="4036">
+        <viz:size value="4.0"/>
+        <viz:position x="42.636093" y="195.23192"/>
+      </node>
+      <node id="4033" label="4033">
+        <viz:size value="4.0"/>
+        <viz:position x="86.71873" y="65.007126"/>
+      </node>
+      <node id="4007" label="4007">
+        <viz:size value="4.0"/>
+        <viz:position x="442.97528" y="-217.03763"/>
+      </node>
+      <node id="4028" label="4028">
+        <viz:size value="4.0"/>
+        <viz:position x="-27.304241" y="153.34724"/>
+      </node>
+      <node id="4012" label="4012">
+        <viz:size value="4.0"/>
+        <viz:position x="69.10365" y="-370.05957"/>
+      </node>
+      <node id="3987" label="3987">
+        <viz:size value="4.0"/>
+        <viz:position x="67.33821" y="-366.47726"/>
+      </node>
+      <node id="4006" label="4006">
+        <viz:size value="4.0"/>
+        <viz:position x="-64.47833" y="96.5249"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="4038" target="4014"/>
+      <edge id="1" source="4038" target="4027"/>
+      <edge id="2" source="4038" target="4031"/>
+      <edge id="3" source="4038" target="3989"/>
+      <edge id="4" source="4038" target="4023"/>
+      <edge id="5" source="4038" target="4020"/>
+      <edge id="6" source="4038" target="4004"/>
+      <edge id="7" source="4038" target="4013"/>
+      <edge id="8" source="4014" target="3982"/>
+      <edge id="9" source="4014" target="4030"/>
+      <edge id="10" source="4014" target="4023"/>
+      <edge id="11" source="4014" target="3985"/>
+      <edge id="12" source="4014" target="3986"/>
+      <edge id="13" source="4014" target="3998"/>
+      <edge id="14" source="4014" target="3995"/>
+      <edge id="15" source="4014" target="4021"/>
+      <edge id="16" source="4014" target="4037"/>
+      <edge id="17" source="4014" target="4017"/>
+      <edge id="18" source="4032" target="4027"/>
+      <edge id="19" source="4027" target="4002"/>
+      <edge id="20" source="4027" target="4020"/>
+      <edge id="21" source="4027" target="4031"/>
+      <edge id="22" source="4027" target="4006"/>
+      <edge id="23" source="4019" target="4026"/>
+      <edge id="24" source="4019" target="3997"/>
+      <edge id="25" source="4019" target="3994"/>
+      <edge id="26" source="4019" target="3998"/>
+      <edge id="27" source="4019" target="4030"/>
+      <edge id="28" source="4019" target="4009"/>
+      <edge id="29" source="4019" target="3981"/>
+      <edge id="30" source="4026" target="4000"/>
+      <edge id="31" source="4026" target="4017"/>
+      <edge id="32" source="4026" target="3995"/>
+      <edge id="33" source="4026" target="4030"/>
+      <edge id="34" source="4026" target="4021"/>
+      <edge id="35" source="4026" target="3986"/>
+      <edge id="36" source="4026" target="3982"/>
+      <edge id="37" source="4023" target="4003"/>
+      <edge id="38" source="4023" target="4031"/>
+      <edge id="39" source="4023" target="4030"/>
+      <edge id="40" source="4023" target="4004"/>
+      <edge id="41" source="4023" target="3997"/>
+      <edge id="42" source="4023" target="3982"/>
+      <edge id="43" source="4023" target="4009"/>
+      <edge id="44" source="4023" target="3981"/>
+      <edge id="45" source="4023" target="4034"/>
+      <edge id="46" source="4023" target="3998"/>
+      <edge id="47" source="4023" target="4002"/>
+      <edge id="48" source="4023" target="3995"/>
+      <edge id="49" source="4023" target="4013"/>
+      <edge id="50" source="4023" target="4018"/>
+      <edge id="51" source="4023" target="3994"/>
+      <edge id="52" source="4003" target="3982"/>
+      <edge id="53" source="4003" target="4009"/>
+      <edge id="54" source="4003" target="4030"/>
+      <edge id="55" source="4018" target="3997"/>
+      <edge id="56" source="4018" target="3994"/>
+      <edge id="57" source="4018" target="3998"/>
+      <edge id="58" source="4018" target="3981"/>
+      <edge id="59" source="4018" target="4030"/>
+      <edge id="60" source="3997" target="3994"/>
+      <edge id="61" source="3997" target="4030"/>
+      <edge id="62" source="3997" target="4021"/>
+      <edge id="63" source="3997" target="3981"/>
+      <edge id="64" source="3997" target="3982"/>
+      <edge id="65" source="3997" target="4009"/>
+      <edge id="66" source="3997" target="3998"/>
+      <edge id="67" source="4031" target="4002"/>
+      <edge id="68" source="4031" target="4011"/>
+      <edge id="69" source="4031" target="4020"/>
+      <edge id="70" source="4031" target="3991"/>
+      <edge id="71" source="4031" target="594"/>
+      <edge id="72" source="4031" target="4004"/>
+      <edge id="73" source="4031" target="4013"/>
+      <edge id="74" source="4021" target="3998"/>
+      <edge id="75" source="4021" target="3988"/>
+      <edge id="76" source="4021" target="3982"/>
+      <edge id="77" source="4021" target="4000"/>
+      <edge id="78" source="4021" target="4030"/>
+      <edge id="79" source="4021" target="4017"/>
+      <edge id="80" source="4021" target="3986"/>
+      <edge id="81" source="3998" target="3982"/>
+      <edge id="82" source="3998" target="3994"/>
+      <edge id="83" source="3998" target="3999"/>
+      <edge id="84" source="3998" target="3981"/>
+      <edge id="85" source="3998" target="4009"/>
+      <edge id="86" source="3998" target="4002"/>
+      <edge id="87" source="3998" target="4005"/>
+      <edge id="88" source="4013" target="4004"/>
+      <edge id="89" source="4013" target="3989"/>
+      <edge id="90" source="4004" target="3995"/>
+      <edge id="91" source="4004" target="3993"/>
+      <edge id="92" source="4004" target="4020"/>
+      <edge id="93" source="4004" target="4030"/>
+      <edge id="94" source="4004" target="3985"/>
+      <edge id="95" source="4030" target="3993"/>
+      <edge id="96" source="4030" target="4009"/>
+      <edge id="97" source="4030" target="4017"/>
+      <edge id="98" source="4030" target="3986"/>
+      <edge id="99" source="4030" target="3994"/>
+      <edge id="100" source="4030" target="3988"/>
+      <edge id="101" source="4030" target="4000"/>
+      <edge id="102" source="4030" target="3982"/>
+      <edge id="103" source="4030" target="4020"/>
+      <edge id="104" source="3988" target="3995"/>
+      <edge id="105" source="3988" target="3985"/>
+      <edge id="106" source="3988" target="3982"/>
+      <edge id="107" source="3988" target="3993"/>
+      <edge id="108" source="3982" target="3986"/>
+      <edge id="109" source="3982" target="4009"/>
+      <edge id="110" source="3982" target="4037"/>
+      <edge id="111" source="3982" target="3994"/>
+      <edge id="112" source="4002" target="4020"/>
+      <edge id="113" source="4002" target="3996"/>
+      <edge id="114" source="4037" target="4020"/>
+      <edge id="115" source="3995" target="3993"/>
+      <edge id="116" source="3995" target="4000"/>
+      <edge id="117" source="3995" target="3985"/>
+      <edge id="118" source="3993" target="3985"/>
+      <edge id="119" source="3986" target="4017"/>
+      <edge id="120" source="3986" target="4033"/>
+      <edge id="121" source="3986" target="4000"/>
+      <edge id="122" source="4017" target="3983"/>
+      <edge id="123" source="4017" target="3992"/>
+      <edge id="124" source="4017" target="4000"/>
+      <edge id="125" source="3994" target="4009"/>
+      <edge id="126" source="3994" target="3996"/>
+      <edge id="127" source="3994" target="3981"/>
+      <edge id="128" source="3999" target="4005"/>
+      <edge id="129" source="3999" target="4036"/>
+      <edge id="130" source="4009" target="3981"/>
+      <edge id="131" source="3991" target="3989"/>
+      <edge id="132" source="3989" target="594"/>
+      <edge id="133" source="3989" target="4011"/>
+      <edge id="134" source="4011" target="594"/>
+      <edge id="135" source="3992" target="4000"/>
+      <edge id="136" source="4000" target="4033"/>
+      <edge id="137" source="3996" target="4028"/>
+      <edge id="138" source="4029" target="4001"/>
+      <edge id="139" source="4025" target="4016"/>
+      <edge id="140" source="4025" target="3990"/>
+      <edge id="141" source="4025" target="4007"/>
+      <edge id="142" source="4016" target="3990"/>
+      <edge id="143" source="4016" target="4007"/>
+      <edge id="144" source="3990" target="4007"/>
+      <edge id="145" source="4012" target="3987"/>
+    </edges>
+  </graph>
+</gexf>

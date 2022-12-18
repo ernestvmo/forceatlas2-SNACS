@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Vanmosuinck
+    given-names: Ernest
+  - family-names: Priyanka
+    given-names: Mouni
+title: "Benchmarking the performance of ForceAtlas2 and other algorithms on Large Networks"
+version: 0.0.1
+date-released: 2022-12-18

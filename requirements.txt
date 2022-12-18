@@ -1,0 +1,51 @@
+appnope==0.1.3
+asttokens==2.2.0
+backcall==0.2.0
+certifi==2022.9.24
+cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1666754804902/work
+contourpy @ file:///Users/runner/miniforge3/conda-bld/contourpy_1667248039447/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
+debugpy==1.6.4
+decorator==5.1.1
+entrypoints==0.4
+executing==1.2.0
+fonttools @ file:///Users/runner/miniforge3/conda-bld/fonttools_1666827168601/work
+ipykernel==6.17.1
+ipython==8.7.0
+jedi==0.18.2
+jupyter_client==7.4.7
+jupyter_core==5.1.0
+kiwisolver @ file:///Users/runner/miniforge3/conda-bld/kiwisolver_1666805734106/work
+matplotlib @ file:///Users/runner/miniforge3/conda-bld/matplotlib-suite_1667505040118/work
+matplotlib-inline==0.1.6
+munkres==1.1.4
+nest-asyncio==1.5.6
+networkx==2.8.8
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1668919173641/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
+pandas==1.5.2
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow @ file:///Users/runner/miniforge3/conda-bld/pillow_1666920675623/work
+platformdirs==2.5.4
+prompt-toolkit==3.0.33
+psutil==5.9.4
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pycairo==1.23.0
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+Pygments==2.13.0
+PyGObject==3.42.2
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1652235407899/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+pytz==2022.6
+pyzmq==24.0.1
+scipy==1.9.3
+seaborn==0.12.1
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+stack-data==0.6.2
+tornado==6.2
+traitlets==5.6.0
+wcwidth==0.2.5
+zstandard==0.19.0
